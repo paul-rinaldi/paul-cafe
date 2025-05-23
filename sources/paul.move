@@ -8,7 +8,7 @@ public struct PAUL has drop {}
 
 fun init(witness: PAUL, ctx: &mut TxContext) {
     let icon_url = url::new_unsafe_from_bytes(
-        b"https://www.pauldmv.com/wp-content/uploads/2023/09/PAUL-national-coffee-day.jpg",
+        b"https://dnconsulting.dev/fictitiouspaulcafe.png",
     );
     let decimals: u8 = 8;
 
